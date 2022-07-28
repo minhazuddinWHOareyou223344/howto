@@ -1,0 +1,586 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+.contaniner{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+
+}
+body{
+    font-family:'Raleway', sans-serif; ;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    color:#222222 ;
+    font-weight: 400;
+    font-size: 40px;
+    position: relative;
+}
+.heading::before{
+    content: '';
+    width: 215px;
+    height: 45px;
+    background-image: url(./img/hara.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -63px;
+}
+
+.manu nav ul li  {
+    display: inline-block;
+   
+}
+.manu nav ul li a{
+    text-align:right ;
+    display: block;
+}
+.logo{
+    width: 30%;
+    margin: 30px 0;
+}
+.manu{
+    width: 70%;
+
+}
+.manu nav ul{
+    text-align: right;
+}
+.manu nav ul li a{
+    padding: 50px 20px ;
+    color: white;
+    position: relative;
+    
+}
+.manu nav ul li a::before{
+    content: '';
+    background-color:white;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+
+  visibility: hidden;
+   opacity: 0;
+   transition: .500ms;
+
+}
+.manu nav  ul  :hover ::before{
+    visibility: visible;
+   opacity: 1;
+}
+
+header{
+    background-image: url(./img/bg1.png);
+    height: 870px;
+}
+.evar{
+    width: 50%;
+    color: white;
+   
+}
+.phone{
+    width: 50%;
+}
+.phone img{
+  
+height: 800px;
+position: absolute;
+top: 160px;
+right: 50px;
+}
+.evar h3{
+    font-size: 50px;
+    font-weight: 400;
+}
+.evar h2{
+    font-size: 60px;
+    font-weight: 400;
+}
+.evar a{
+   
+    background-color: #57c4bf;
+  padding: 18px 28px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.evar p{
+   margin-bottom: 60px;
+   text-align: justify;
+}
+#our{
+    margin: 147px 0;
+    position: relative;
+}
+.clean{
+    width: 33%;
+}
+.log{
+    width: 33%;
+}
+.seo{
+    width: 33%;
+}
+.bost{
+ padding: 200px 0;
+ position: relative;
+}
+.bost span{
+    width: 50px ;
+    font-size: 50px;
+    height: 50px ;
+    border-radius: 50%;
+    border: 1px solid  black;
+    color: rgb(19, 171, 171);
+}
+.bost h4{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.bost p{
+width: 250px;
+}
+.log  {
+    width: 600px;
+    height: 600px;
+ position: absolute;
+   top: 160px;
+    left: 10px;
+}
+.seo{
+   right: 10px;
+    width: 500px;
+    position: absolute;
+   bottom: -50px;
+
+}
+.bost ::after{
+    content: '';
+    width: 370px;
+    height: 150px;
+background-image: url(./img/digin.png);
+position:absolute ;
+
+}
+.happy{
+    margin: 100px 0;
+    background-color: black;
+   position: relative;
+   
+}
+.won{
+    width: 25%;
+    color: aliceblue;
+    position: relative;
+    margin: 100px 0;
+   
+    
+}
+.won span{
+    font-size: 35px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   background-color: #57c4bf;
+   border: 1px solid red;
+   position: absolute;
+   top: -50px;
+ right: 200px;
+ display: inline-block;
+}
+.won ul li{
+    font-size: 25px;
+    font-weight: 400;
+    
+
+}
+.total{
+    width: 100%;
+    height: 500px;
+  background-color: black;
+  position: relative;
+}
+.totlimg{
+    height: 800px;
+position: absolute;
+bottom: -500px;
+right: 200px;
+
+
+}
+ #about.getimg{
+    width: 50%;
+    padding: 70px 145px;
+}
+ #about .get{
+    width: 50%;
+
+    padding: 70px 145px;
+}
+#about .get ul li{
+   list-style: georgian;
+}
+#about .get a{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 24px 18px;
+    background-color: #57c4bf;
+    border-radius: 30px;
+}
+#faq .our{
+    width: 50%;
+}
+#faq .ourimg{
+    width: 50%;
+}
+#faq .you{
+    margin: 150px 0;
+   
+}
+#faq .you{
+    background-image: url(./img/bg3.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+}
+#faq .our{
+    margin: 50px  0;
+}
+#faq .our p{
+    width: 250px;
+    font-size: 11px;
+}
+#faq .our ul li {
+    margin: 30px 0;
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 300px;
+}
+#faq .our a{
+    background-color: antiquewhite;
+}
+#hot{
+    position: relative;
+}
+#hot .hots img {
+    margin: 80px 0;
+    left: 50px;
+    position: absolute;
+    left: 400px;
+   
+}
+#video{
+    margin: 800px 0;
+    position: relative;
+}
+#video .tourimg{
+    width: 50%;
+}
+#video .tour{
+    width: 50%;
+}
+#video .tourimg img{
+position: absolute;
+bottom: o;
+margin: 80px -190px;
+}
+#video .tour{
+  padding: 100px 0;
+    margin: 80px o;
+}
+#video .tour p{
+  padding: 30px 0;
+}
+#test{
+    margin : -800px 0;
+   padding: 100px 0;
+   position: relative;
+}
+.testt{
+    height: 550px ;
+    width: 100%;
+    background-color: #f6f5f2;
+}
+
+ #test .sala{
+    width: 800px ;
+    height: 350px ;
+    background-color: #ffffff;
+  margin: auto;
+   margin-top: 200px;
+   position: relative;
+
+}
+#test .sala  .imgs img {
+
+ position: absolute;
+ left: 350px;
+ top: -50px;
+}
+.sala{position: absolute;
+    top: 120px;
+border-radius: 50px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+ 
+}
+.sala h3{
+    text-align: center;
+padding: 45px 0;
+}
+.sala h4{
+    text-align: center;
+    
+}
+.sala p{
+    width: 500px;
+    text-align: center;
+   margin: 50px 120px;
+}
+#team{
+    margin: 800px 0;
+    position: relative;
+}
+#team .teamimg{
+    margin: 140px 40px ;
+}
+#team .minhaz{
+    font-size: 50px;
+    position: absolute;
+   right: 750px;
+   margin: 60px 0;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #0a6c67;
+   display: inline-block;
+   text-align: center;
+   line-height: 70px;
+}
+#team .nadman{
+    font-size: 50px;
+    position: absolute;
+    right: 680px;
+    margin: 80px 0;
+    width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #10605c;
+   display: inline-block;
+   text-align: center;
+   line-height: 70px;
+}
+#team .sakib{
+    font-size: 50px;
+    position: absolute;
+    right: 500px;
+    margin: 120px;
+    width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #0e6763;
+   display: inline-block;
+   text-align: center;
+   line-height: 70px;
+}
+#team .hahin{
+    font-size: 50px;
+    position: absolute;
+    right:400px ;
+    margin: 165px;
+    width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #0e5551;
+   display: inline-block;
+   text-align: center;
+   line-height: 70px;
+   border: 3px solid rgb(18, 22, 22);
+}
+#team .mom{
+    font-size: 50px;
+    position: absolute;
+    right: 300px;
+    margin: 240px;
+    width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #276365;
+   display: inline-block;
+   text-align: center;
+   line-height: 70px;
+  
+}
+
+#team .mom:hover{
+    background-color: #f6f5f2;
+    border: 3px solid black;
+}
+#team .teamimg {
+    text-align: center;
+}
+#plan{
+    margin: -780px 0;
+}
+#plan .plancard{
+    width: 33%;
+    margin: 80px 0;
+    
+ 
+    padding: 0 10px;
+}
+.plancard .plancnt{
+    background-color: #f8f8f8;
+    
+
+}
+.text h3{
+    text-align: center;
+    padding: 20px o;
+}
+.text ul li{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.text{
+    position: relative;
+   
+
+}
+.text h2{
+    text-align: center;
+    padding: 50px 50px;
+   
+   
+}
+.text img{
+    width: 300px;
+}
+.plancard:last-child{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+}
+.plancard:first-child{
+
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+}
+.text h3{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+}
+.news{
+    margin: 80px 0;
+   position: relative;
+}
+.news h3{
+    position: absolute;
+    right: 450px;
+    color: #ffffff;
+}
+.news span{
+   position: absolute;
+   bottom: 60px;
+   right: 350px;
+}
+.news a{
+    position: absolute;
+    bottom: 60px;
+    right: 300px;
+background-color: #0b272c;
+color: #f6f5f2;
+}
+#apk{
+    margin: 900px 0;
+    background-color: #f6f5f2;
+    position: relative;
+}
+#apk .apklogo{
+ padding: 50px 500px;
+}
+#apk .apklogo h3{
+    width: 600px;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+#apk .apklogo a{
+margin: 30px 0;
+display: flex;
+   width: 200px;
+    padding: 50px 50px;
+    background-color: #10605c;
+    border-radius: 60px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+
+#apk .apklogo p{
+    text-align: center;
+}
+#apk .apklogo span{
+    text-align: center;
+    font-size: 40px;
+   position: absolute;
+   
+   
+   
+}
+#apk .apklogo span i{
+    width: 60px;
+    height: 60px;
+ 
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+.alen{
+    margin: -800px 0;
+    width: 33%;
+position: relative;
+   
+}
+.alen img{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+    right: -500px;
+    
+}
+.overlay{
+    width: 500px;
+    height: 500px;
+    background-color: #09505cef;
+    position: absolute;
+    right: -500px;
+    
+}
+.overlay p{
+    text-align: center;
+    margin: 300px 0;
+    font-size: 50px;
+  font-weight: 800;
+  color: red;
+  
+}
